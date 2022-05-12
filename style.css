@@ -1,0 +1,160 @@
+@import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap');
+
+.disclaimer {
+    display: none;
+}
+
+.bg-body {
+    background-color: rgb(237, 226, 224) !important;
+}
+.btn-color {
+    background-color: rgb(226, 196, 195) !important;
+}
+.pastel-green {
+    background-color: #BEE5B0 !important;
+}
+.pastel-red {
+    background-color: #ffbdb9 !important;
+}
+.pastel-yellow {
+    background-color: #EEDEA0 !important;
+}
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(244, 239, 238) !important;
+}
+
+
+.btn-menu a{
+    color: white;
+}
+
+
+.navv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.navv img {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#btn-stockIn {
+    margin-right: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 500px !important;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgb(237, 226, 224);
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.navbar .navbar-brand > h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    /* background-color: #F4EFEE; */
+    position: relative;
+    background-image: url(/assets/images/chiro.jpg);
+    opacity: 1;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 50vh;
+    border-radius: 0 0 50px 50px;
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.header .text-header {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #eee;
+}
+
+.typewriter h4 {
+    overflow: hidden;
+    border-right: .15em solid rgb(226, 196, 195);
+    white-space: nowrap;
+    margin: 0 auto;
+    /* letter-spacing: .15em; */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(226, 196, 195) }
+}
+
+/* Services */
+.services {
+    background-color: rgb(237, 226, 224);
+    height: 32rem;
+    /* position: relative; */
+    margin-top: -3rem;
+}
+
+.services a {
+    text-decoration: none;
+}
+
+.services .bg-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(226, 196, 195);
+    margin-top: .5rem;
+}
+
+.services .bg-icon > i {
+    font-size: 3rem;
+    color: #eee;
+}
+
+.services .text-services {
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.services .card {
+    border-radius: 30px;
+    width: 20rem;
+}
